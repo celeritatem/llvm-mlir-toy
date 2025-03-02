@@ -1,1 +1,11 @@
+# Toy MLIR
+
 The toy language from the LLVM MLIR tutorial.
+
+
+## Get Started
+
+```sh
+MLIR_SRC_ROOT=<PATH_TO_MLIR> make
+```
+Where `MLIR_SRC_ROOT` is the path to the MLIR source in the LLVM project  -- i.e. `mlir` subdirectory in [github.com/llvm/llvm-project](https://github.com/llvm/llvm-project/tree/main/mlir).
